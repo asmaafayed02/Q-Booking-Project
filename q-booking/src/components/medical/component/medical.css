@@ -1,0 +1,17 @@
+.clinic-card:hover,
+.hospital-card:hover,
+.pharmacy-card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+    transform: scale(.99);
+    transition:ease-in-out;
+    transition-duration: 0.5s;
+}
+#medical-more{
+    color: #3c91A8;
+    font-weight: bold;
+}
+#medical-more:hover{
+    color: #7ebacc;
+    transition:ease-in-out;
+    transition-duration: 1.5s;
+}

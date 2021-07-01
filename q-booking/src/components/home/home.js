@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Slider from './Slider/Slider';
+import About from './About/About'
+
 class Home extends Component {
     state = {  }
     render() { 
         return ( 
             <div>
-                this is Home
+                <Slider />
+                <About /> 
             </div>
          );
     }

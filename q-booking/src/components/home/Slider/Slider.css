@@ -1,0 +1,12 @@
+#slide-head {
+    padding-bottom: 350px;
+    padding-left: 35%;
+    color: white;
+    text-shadow:3px 2px black;
+    position: absolute;
+    align-items: center;
+    font-size: 80px;
+    letter-spacing: 2pt;
+    font-weight: bold;
+    bottom: 0;
+}

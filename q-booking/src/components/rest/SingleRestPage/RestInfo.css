@@ -1,0 +1,60 @@
+.container .restInfo{
+    margin-bottom: 70px;
+}
+
+.container .restInfo h3 {
+    color: #D17309 ; 
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+.container .restInfo .location {
+    color: #D17309 ; 
+}
+
+.container .restInfo p {
+    line-height: 2.4em;
+}
+
+.container .restInfo .icons {
+    font-size: 25px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    color: rgb(201, 60, 201);
+}
+
+.container .restInfo .icons .facebook {
+    margin-right: 12px;
+    color: #20687c;
+}
+
+.container .restInfo .option {
+    display: none
+}
+
+.container .restInfo .comment input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    outline: none;
+    font-size: 15px;
+    width: 55%;
+    height: 20px;
+    margin-bottom: 30px;
+    padding: 20px 0px ;
+}
+
+.container .restInfo .signUp-button .reg-button,
+.add-review  {
+    padding: 13px 30px;
+    background-color: #D17309;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    outline: 0px;
+}
+
+.add-review {
+    margin-left: 20px;
+}

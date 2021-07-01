@@ -12,7 +12,7 @@ function App() {
         
         <Coffee/>
         <Resturant/>
-        <Clinics/>
+        
         <Hospitals/>
         <Pharmacy/>
     </div>

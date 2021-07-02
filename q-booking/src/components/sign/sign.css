@@ -1,0 +1,62 @@
+/* Style for heading and heading box */
+.log-in {
+    margin: 50px 0px;
+}
+
+.log-in .form-heading h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.log-in .form-heading h2,
+.log-in .form form h4 {
+    color: #3c91a8;
+    padding: 0px 5px ; 
+}
+
+/* Style for container box */
+.log-in .form form .border {
+    padding: 30px ;
+    margin-bottom: 100px;
+}
+
+/* Style for all input text ( first 6 inputs ) */
+.log-in .form form .input-text {
+    display: block;
+    padding: 25px 0px;
+    width: 60%;
+    height: 20px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    outline: none;
+    font-size: 15px;
+}
+
+/* make space between password field and Selection of gender */
+.log-in .form form .pass {
+    margin-bottom: 30px;
+}
+
+.log-in .form form .message,
+.log-in .form form .passInfo {
+    color: red;
+}
+
+/* style for label */
+.log-in .form form label {
+    color: #3c91a8;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Style for button */
+.log-in .form form .form-button {
+    padding: 13px 30px;
+    background-color: #3c91a8;
+    color: white;
+    font-size: 15px;
+    margin-left: 50%;
+    outline: none;
+    border: 0px;
+}

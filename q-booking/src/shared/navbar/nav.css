@@ -1,0 +1,19 @@
+.navbar {
+    background-color:#3C91A8;
+    height: 80px;
+}
+
+.navbar .nav-logo {
+    color: #e48d2a;
+}
+
+.navbar #left-links,
+.navbar #collasible-nav-dropdown {
+    color: white;
+    float: right;
+}
+
+.navbar #dropdown-item:hover {
+    background-color: #e48d2a;
+    color: white;
+}

@@ -1,0 +1,45 @@
+.about {
+    margin: 50px 0px ; 
+}
+ 
+.about .about-heading {
+    color: #3c91a8;
+    text-align: center;
+}
+
+.about .about-parag {
+    text-align: center;
+    padding: 20px 0px 30px 0px ;
+    color: rgba(0,0,0,.5)!important;
+}
+
+.about .about-parag .para-color{
+    color: #3c91a8;
+    padding-top: 25px;
+    font-weight: 500;
+}
+
+.each-founder {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.founders .founder-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.founders .each-founder .founder-information h4 {
+    color: #3c91a8;
+    text-align: center;
+}
+
+.founders .each-founder .founder-information {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.founders .each-founder .founder-information .founders-social {
+    margin: 10px;
+}

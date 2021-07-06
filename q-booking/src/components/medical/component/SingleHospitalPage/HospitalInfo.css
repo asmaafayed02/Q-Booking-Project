@@ -1,0 +1,61 @@
+.container .hospitalInfo{
+    margin-bottom: 70px;
+}
+
+.container .hospitalInfo h3 {
+    color: #3c91a8;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+.container .hospitalInfo .location {
+    color: #3c91a8; 
+}
+
+.container .hospitalInfo p {
+    line-height: 2.4em;
+}
+
+.container .hospitalInfo .icons {
+    font-size: 25px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    color: rgb(201, 60, 201);
+}
+
+.container .hospitalInfo .icons .facebook {
+    margin-right: 12px;
+    color: #20687c;
+}
+
+.container .hospitalInfo .comment input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    outline: none;
+    font-size: 15px;
+    width: 60%;
+    height: 20px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+.container .hospitalInfo .signUp-button .reg-button,
+.adding-review {
+    padding: 13px 30px;
+    background-color: #3c91a8;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    outline: 0px;
+}
+
+.adding-review {
+    margin-left: 20px;
+}
+/*
+.caption{
+    color: #3c91a8;
+}
+*/

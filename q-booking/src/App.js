@@ -7,12 +7,14 @@ import { Resturant } from './components/rest/component/resturant/resturants';
 import { Clinics } from './components/medical/component/clinic/clinins';
 import { Hospitals } from './components/medical/component/hospital/hospitals';
 import Sign from './components/sign/sign'
-import SingleResPage from './components/rest/SingleRestPage/SingleRestPage'
-import SingleMedicalPage from './components/medical/SingleMedicalPage/SingleMedicalPage'
 import Footer from './shared/footer/footer'
 import About from './components/home/About/About';
 import { PageNotFound } from './components/PageNotFound/pageNotFound';
-// import MedicalInfo from './components/medical/SingleMedicalPage/MedicalInfo';
+import LogIn from './components/log-in/LogIn';
+import SingleResPage from './components/rest/component/SingleRestPage/SingleRestPage';
+import SingleCoffeePage from './components/rest/component/SingleCoffeePage/SingleCoffeePage';
+ import SingleHospitalPage from './components/medical/component/SingleHospitalPage/SingleHospitalPage';
+import SingleClinicPage from './components/medical/component/SingleClinicPage/SingleClinicPage ';
 
 
 function App() {
@@ -26,9 +28,12 @@ function App() {
             <Route path='/resturant' component={Resturant}/>
             <Route path='/clinc' component={Clinics}/>
             <Route path='/Hospital' component={Hospitals}/>
-            <Route path='/medical' component={SingleMedicalPage}/>
-            <Route path='/rest' component={SingleResPage}/>
+            <Route path='/singlehospital' component={SingleHospitalPage}/>
+            <Route path='/singleclinic' component={SingleClinicPage}/>
+            <Route path='/singlerest' component={SingleResPage}/>
+            <Route path='/singlecoffee' component={SingleCoffeePage}/>
             <Route path='/sign' component={Sign}/>
+            <Route path='/login' component={LogIn}/>
             <Route path='/notfound' component={PageNotFound}/>
             <Redirect to='/notfound/' />
             <Redirect from='/' to='/home' />
@@ -36,14 +41,7 @@ function App() {
         </Switch>
       
         <Footer />
-        {/* <Coffee/>
-        <Resturant/>
-        <Clinics/>
-        <Hospitals/>
-        <Sign/>
-        <SingleResPage />
-       < SingleMedicalPage />
-        */}
+       
     </div>
   );
 }

@@ -42,7 +42,7 @@ export const OurHospitals =()=>{
                                   <h5 className="card-title">{hospitalItem.hospital_title}</h5>
                                   <p className="card-text text-black-50">{hospitalItem.hospital_description}</p>
                                    {/**buttom to learn more about hospital*/}
-                                   <Link to='/medical' id='medical-more' className='btn mt-2'>
+                                   <Link to='/singlehospital' id='medical-more' className='btn mt-2'>
                                        Explore...
                                   </Link>
                                 </div>

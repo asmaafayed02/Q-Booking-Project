@@ -42,7 +42,7 @@ export const OurCoffee =()=>{
                                   <h5 className="card-title">{coffeeItem.Coffe_title}</h5>
                                   <p className="card-text text-black-50">{coffeeItem.Coffe_description}</p> 
                                   {/**buttom to learn more about coffee*/}
-                                  <Link to='/rest' id='rest-more' className='btn mt-2'>
+                                  <Link to='/singlecoffee' id='rest-more' className='btn mt-2'>
                                        Explore...
                                   </Link>
                                 </div>

@@ -1,34 +1,34 @@
-.container .medicalInfo{
+.container .clinicInfo{
     margin-bottom: 70px;
 }
 
-.container .medicalInfo h3 {
+.container .clinicInfo h3 {
     color: #3c91a8;
     text-transform: uppercase;
     padding: 15px 0px;
 }
 
-.container .medicalInfo .location {
+.container .clinicInfo .location {
     color: #3c91a8; 
 }
 
-.container .medicalInfo p {
+.container .clinicInfo p {
     line-height: 2.4em;
 }
 
-.container .medicalInfo .icons {
+.container .clinicInfo .icons {
     font-size: 25px;
     padding-bottom: 15px;
     cursor: pointer;
     color: rgb(201, 60, 201);
 }
 
-.container .medicalInfo .icons .facebook {
+.container .clinicInfo .icons .facebook {
     margin-right: 12px;
     color: #20687c;
 }
 
-.container .medicalInfo .comment input {
+.container .clinicInfo .comment input {
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid #999999;
@@ -40,7 +40,7 @@
     padding: 20px 0px;
 }
 
-.container .medicalInfo .signUp-button .reg-button,
+.container .clinicInfo .signUp-button .reg-button,
 .adding-review {
     padding: 13px 30px;
     background-color: #3c91a8;

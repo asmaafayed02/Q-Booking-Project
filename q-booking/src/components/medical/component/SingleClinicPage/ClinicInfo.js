@@ -1,8 +1,8 @@
 // import React, { useState, useEffect} from 'react';
 // import axios from 'axios';
-import './MedicalInfo.css'
+// import './MedicalInfo.css'
 // import { propTypes } from 'react-bootstrap/esm/Image';
- const MedicalInfo =(props)=>{
+//  const MedicalInfo =(props)=>{
 //     const [isLoaded , setLoaded] = useState(false);
 //     const [error , setError] = useState(null);
 //     const [OurClinics , setOurClinics] = useState();
@@ -31,13 +31,21 @@ import './MedicalInfo.css'
 //       }else{ 
 //           const clinic = (OurClinics.filter((clinicItem) =>(clinicItem.clinic_id===parseInt(props.match.params.id))));
 // console.log(clinic)
+        
+
+import React, { Component } from 'react';
+import './ClinicInfo.css'
+import {Link} from 'react-router-dom'
+class ClinicInfo extends Component {
+    state = {  }
+    render() { 
         return ( 
             <div className='container' >
-                            <div className='medicalInfo'>
-                                <h3>Elsalam eldawly</h3>
-                                <h5><i className= "fas fa-map-marker-alt location" ></i> Abbas Elakad - Nasr City </h5>
-                                <p>lorem ipsum dolor sit amet, ea doming until epicuri iudicabit name, te usu virtute placeratpurto brute disputando cu est ea doming until epicuri iudicabit name, te usu virtute placeratpurto brute disputando cu est
-                                lorem ipsum dolor sit amet, ea doming until epicuri iudicabit name, te usu virtute placeratpurto brute disputando cu est ea doming</p>
+                <div className='clinicInfo'>
+                    <h3>We Care Dental Clinic - Nasr City</h3>
+                    <h5><i className= "fas fa-map-marker-alt location" ></i> Abbas Elakad - Nasr City </h5>
+                    <p>lorem ipsum dolor sit amet, ea doming until epicuri iudicabit name, te usu virtute placeratpurto brute disputando cu est ea doming until epicuri iudicabit name, te usu virtute placeratpurto brute disputando cu est
+                    lorem ipsum dolor sit amet, ea doming until epicuri iudicabit name, te usu virtute placeratpurto brute disputando cu est ea doming</p>
 
                                 <div className='icons'>
                                     <i className='fab fa-facebook-f facebook'></i>
@@ -51,15 +59,17 @@ import './MedicalInfo.css'
                                 </div>
 
                                 <div className='signUp-button'>
-                                    <button className='reg-button' >Register Now!</button>
+                                    <Link to='login' className='reg-button' >Register Now!</Link>
                                 </div>
                             </div>
                 
                 
-            )
+            
     
                 
-                </div>
-)}
-
-export default MedicalInfo;
+            </div>
+         );
+    }
+}
+ 
+export default ClinicInfo;

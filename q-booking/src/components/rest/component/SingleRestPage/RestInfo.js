@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './RestInfo.css'
+import './RestInfo.css';
+import {Link} from 'react-router-dom'
 class RestInfo extends Component {
     state = {  }
 
@@ -25,7 +26,7 @@ class RestInfo extends Component {
                     </div>
                     
                     <div className='signUp-button'>
-                        <button className='reg-button' >Register Now!</button>
+                        <Link to='login' className='reg-button' >Register Now!</Link>
                     </div>
 
                 </div>

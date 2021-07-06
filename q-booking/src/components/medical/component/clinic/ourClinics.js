@@ -42,7 +42,7 @@ export const OurClinics =()=>{
                                   <h5 className="card-title">{clinicItem.clinic_title}</h5>
                                   <p className="card-text text-black-50">{clinicItem.clinic_description}</p>
                                    {/**buttom to learn more about clinic*/}
-                                  <Link to='/medical' id='medical-more' className='btn mt-2'>
+                                  <Link to='/singleclinic' id='medical-more' className='btn mt-2'>
                                        Explore...
                                   </Link>
                                 </div>

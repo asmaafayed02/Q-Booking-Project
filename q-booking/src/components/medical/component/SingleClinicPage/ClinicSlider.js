@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 
-class MedicalSlider extends Component {
+class ClinicSlider extends Component {
     state = {  }
     render() { 
         return ( 
@@ -48,4 +48,4 @@ class MedicalSlider extends Component {
     }
 }
  
-export default MedicalSlider;
+export default ClinicSlider;

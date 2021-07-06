@@ -6,8 +6,8 @@ class LogIn extends Component {
     render() { 
         return ( 
             <div className='container'>
-                <form className='logIn'>
-                    <div className='logIn-border'>
+                <form className='logIn '>
+                    <div className='logIn-border col-12'>
                         <legend> <h4>Login Into Our Website</h4> </legend>
                             <input 
                                 className='input-text f-name form-control' 

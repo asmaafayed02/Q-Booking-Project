@@ -1,21 +1,23 @@
+.logIn
+{
+    margin:15% ;
+}
+
 .logIn-border 
 {
     text-align: center;
     background-color: #3c91a8;
-    margin-top: 15%;
-    margin-left: 24%;
     padding: 45px;
-    width: 600px;
 }
 
 .logIn-border h4
 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .logIn .logIn-border input 
 {
-    width: 400px;
+    width: 80%;
     height: 30px;
     margin-left: 10%;
 }

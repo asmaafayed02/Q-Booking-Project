@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
-import '../medical.css'
+import '../medical.css';
+import { Link } from 'react-router-dom';
 export const OurClinics =()=>{
   const [isLoaded , setLoaded] = useState(false);
   const [error , setError] = useState(null);
@@ -41,9 +42,9 @@ export const OurClinics =()=>{
                                   <h5 className="card-title">{clinicItem.clinic_title}</h5>
                                   <p className="card-text text-black-50">{clinicItem.clinic_description}</p>
                                    {/**buttom to learn more about clinic*/}
-                                  <button id='medical-more' className='btn mt-2'>
-                                       Learn more...
-                                  </button>
+                                  <Link to='/medical' id='medical-more' className='btn mt-2'>
+                                       Explore...
+                                  </Link>
                                 </div>
                             </div>
                         </div>

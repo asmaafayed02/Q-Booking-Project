@@ -6,12 +6,13 @@ class Sign extends Component {
 
     matchPassword = () => {
             var pw1 = document.getElementById("pswd1");  
-            var pw2 = document.getElementById("pswd2");  
-            if(pw1 != pw2)  
+            var pw2 = document.getElementById("pswd2"); 
+            var message =  document.getElementsByClassName('message');
+            if(pw1 !== pw2)  
             {   
-              alert("Passwords did not match");  
+              message.innerText=("Passwords did not match");  
             } else {  
-              alert("Password created successfully");  
+               message.innerText=("Password created successfully");  
             }  
         }
 
@@ -103,7 +104,7 @@ class Sign extends Component {
                                     
                                     <div className='message'></div>
 
-                                    <button className='form-button' onClick = {this.matchPassword()} >Submit</button>
+                                    <button className='form-button' onClick= {this.matchPassword} >Submit</button>
                             </fieldset>
                         </form>
                         </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
-import '../coffee.css'
+import '../coffee.css';
+import { Link } from 'react-router-dom';
 export const OurResturant =()=>{
   const [isLoaded , setLoaded] = useState(false);
   const [error , setError] = useState(null);
@@ -41,9 +42,9 @@ export const OurResturant =()=>{
                                   <h5 className="card-title">{resturantItem.Resturant_title}</h5>
                                   <p className="card-text text-black-50">{resturantItem.Resturant_description}</p>
                                    {/**buttom to learn more about resturant*/}
-                                   <button id='rest-more' className='btn mt-2'>
-                                       Learn more...
-                                  </button>
+                                   <Link to='/rest' id='rest-more' className='btn mt-2'>
+                                       Explore...
+                                  </Link>
                                 </div>
                             </div>
                         </div>

@@ -8,7 +8,7 @@ class SingleMedicalPage extends Component {
         return ( 
             <div>
                 <MedicalSlider />
-                <MedicalInfo />
+                <MedicalInfo/>
             </div>
          );
     }

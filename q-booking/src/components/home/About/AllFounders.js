@@ -8,11 +8,11 @@ class AllFounders extends Component {
 
         let founders = foundersInfo.map ( founderInforamation => {
             return (
-                <div className="founders ">
+                <div className="founders " key={founderInforamation.id}>
                     <div className='container '>
                         <div className="col-12 each-founder">
                             <div className="founder-image">
-                                <img src={founderInforamation.imgSrc} title="Pic for Each Founder" alt="Founder photo" />
+                                <img src={founderInforamation.imgSrc} title="Pic for Each Founder" alt="Founder" />
                             </div>
 
                             <div className="founder-information">

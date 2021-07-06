@@ -6,14 +6,14 @@ class Home extends Component {
     state = {  }
     render() { 
         return ( 
-            <Carousel >
+            <Carousel slide={false} fade={false}>
                 <Carousel.Item> { /* Start First Slises  */ }
                     <img
                         className="w-100"
                         src={'/ImgSlider/FirstSlide.jpg'}
                         alt="First slide"
                     />
-                    <h1 id="slide-head"><span>Q-</span>Booking</h1>
+                    <h1 id="slide-head" className=''><span>Q-</span>Booking</h1>
                     {/* <p id='slide-parag'>Your sire to choose the best place suitable for you, Best wishes</p> */}
                 </Carousel.Item> { /* End First Slises  */ }
 

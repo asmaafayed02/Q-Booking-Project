@@ -8,7 +8,6 @@ export const Coffee =()=>{
                 <div className='text-center'>
                     <h2 className='py-2'>Our Coffes</h2>
                     <div className='d-flex justify-content-center'>
-                    <hr className='border w-50'/>
                     </div>
                     <p className=' px-12 py-6 text-black-50'>We believe in the goodness of real food, made from scratch. We source only the finest ingredients and hand-craft our baked goods daily.</p>
                 </div>

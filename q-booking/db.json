@@ -198,56 +198,7 @@
         "hospital_title": "Tracking",
         "hospital_description": "Track and save your medical history and health data "
       }
-    ],
-    "Pharmacy": [
-      {
-        "pharmacy_id": 1,
-        "pharmacy_icon": "../Images/Clinic/clinic1.jpg",
-        "pharmacy_title": "Search doctor",
-        "pharmacy_description": "Choose your doctor from thousands of specialist, general, and trusted hospitals"
-      }, 
-      {
-        "pharmacy_id": 2,
-        "pharmacy_icon": "../Images/Clinic/clinic2.jpg",
-        "pharmacy_title": "Online Pharmacy",
-        "pharmacy_description": "Buy  your medicines with our mobile application with a simple delivery system"
-      },
-      {
-        "pharmacy_id": 3,
-        "pharmacy_icon": "../Images/Clinic/clinic3.jpg",
-        "pharmacy_title": "Conslution",
-        "pharmacy_description": "Free consultation with our trusted doctors and get the best recomendations"
-      },
-      {
-        "pharmacy_id": 4,
-        "pharmacy_icon": "../Images/Clinic/clinic4.jpg",
-        "pharmacy_title": "Details Info",
-        "pharmacy_description": "Free consultation with our trusted doctors and get the best recomendations"
-      },
-      {
-        "pharmacy_id": 5,
-        "pharmacy_icon": "../Images/Clinic/clinic4.jpg",
-        "pharmacy_title": "Emergancy Care",
-        "pharmacy_description": "You can get 24/7 urgent care for yourself or your children and your lovly family"
-      },
-      {
-        "pharmacy_id": 6,
-        "pharmacy_icon": "../Images/Clinic/clinic3.jpg",
-        "pharmacy_title": "Tracking",
-        "pharmacy_description": "Track and save your medical history and health data "
-      },
-      {
-        "pharmacy_id": 7,
-        "pharmacy_icon": "../Images/Clinic/clinic2.jpg",
-        "pharmacy_title": "Tracking",
-        "pharmacy_description": "Track and save your medical history and health data "
-      },
-      {
-        "pharmacy_id": 8,
-        "pharmacy_icon": "../Images/Clinic/clinic1.jpg",
-        "pharmacy_title": "Tracking",
-        "pharmacy_description": "Track and save your medical history and health data "
-      }
     ]
+    
   
 }

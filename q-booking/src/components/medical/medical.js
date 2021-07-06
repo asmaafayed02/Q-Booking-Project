@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import { Clinics } from './component/clinic/clinins';
+import { Hospitals } from './component/hospital/hospitals';
 class Medical extends Component {
     state = {  }
     render() { 
         return ( 
             <div>
-                this is Medical
+                <Hospitals/>
+                <Clinics/>
             </div>
          );
     }

@@ -10,7 +10,7 @@ export const OurResturant =()=>{
   useEffect(()=>{
     axios({
         method:'GET',
-        url: " http://localhost:3000/Resturants"
+        url: " F:\my projects\Q-Booking-Project\q-booking\api\items\read.php"
     }).then(response =>{
        console.log(response.data)
         setOurResturant(response.data)

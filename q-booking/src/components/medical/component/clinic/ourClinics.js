@@ -10,10 +10,10 @@ export const OurClinics =()=>{
   useEffect(()=>{
     axios({
         method:'GET',
-        url: "http://localhost:3000/Clinics"
+        url: "../api/items/read.php"
     }).then(response =>{
-       console.log(response.data)
-        setOurClinics(response.data)
+       console.log(response.modules)
+        setOurClinics(response.modules)
         setLoaded(true) 
    })
    .catch(error =>{
@@ -33,7 +33,7 @@ export const OurClinics =()=>{
         <div className="row row-cols-1 row-cols-md-4 ">
             {OurClinics.map(clinicItem =>{
                 return(//maping to show our data
-                        <div className="col mt-5 col-lg-3 col-md-4 col-sm-6" key={clinicItem.clinic_id}>
+                        <div className="col mt-5 col-lg-3 col-md-4 col-sm-6" key={clinicItem.id}>
                             <div className="card h-100 shadow bg-body rounded border-0 clinic-card">
                                 <div className='card-clinicImage h-50'>
                                 <img src={clinicItem.clinic_icon} className="card-img-top h-100 " alt="clinic shop"/>

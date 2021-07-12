@@ -10,7 +10,7 @@ export const OurCoffee =()=>{
   useEffect(()=>{
     axios({
         method:'GET',
-        url: "http://localhost:3000/Coffes"
+        url: "F:\my projects\Q-Booking-Project\q-booking\api\items"
     }).then(response =>{
        console.log(response.data)
         setOurCoffes(response.data)

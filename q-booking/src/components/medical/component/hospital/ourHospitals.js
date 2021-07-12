@@ -10,7 +10,7 @@ export const OurHospitals =()=>{
   useEffect(()=>{
     axios({
         method:'GET',
-        url: "http://localhost:3000/Hospital"
+        url: "F:\my projects\Q-Booking-Project\q-booking\api\items"
     }).then(response =>{
        console.log(response.data)
         setOurHospitals(response.data)
